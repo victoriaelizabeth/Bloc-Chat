@@ -15,7 +15,7 @@
             $uibModal.close(this.name);
         };
             this.cancel = function() {
-                $uibModal.dismiss('cancel');
+            $uibModal.dismiss('cancel');
             };
             modalInstance.result.then(function(name) {
                 this.room = name;
